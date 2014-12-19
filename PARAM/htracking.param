@@ -1,3 +1,9 @@
+# If 1, Let a hit have different L/R assignment for different space points
+# instead of L/R assignment from first sp it appears in.
+hdc_fix_lr = 0
+# If 1, don't do the the propagation along the wire each time the hit
+# appears in a space point.  (Which means the correction accumulates)
+hdc_fix_propcorr = 0
 ; hms pattern recognition and tracking code parameters
 ; hmax_pr_hits is the maximum number of decoded hits allowed in a chamber for
 ;              pattern recognition to proceed. This protexts against unusual
