@@ -1,3 +1,4 @@
+stof_tolerance=100.
 ; sstart_time_center  center of allowed time window                             
    sstart_time_center = 32.                                                     
 ; sstart_time_slop    1/2 width of time window                                  
